@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=10.0">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <!-- Unoredered List -->
+        <!-- <ul>
+            <li>Apple</li>
+                <ul>
+                    <li>Colour: Red</li>
+                    <li>Season: Winter</li>
+                </ul>
+            <li>Mango</li>
+                <ul>
+                    <li>Colour: Yellow</li>
+                    <li>Season: Summers</li>
+                </ul>
+            <li>Grapes</li>
+        </ul> -->
+
+        <!-- Ordered List -->
+        <ol>
+            <li>Apple</li>
+                <ul>
+                    <li>Colour: Red</li>
+                    <li>Season: Winter</li>
+                </ul>
+            <li>Mango</li>
+                <ul>
+                    <li>Colour: Yellow</li>
+                    <li>Season: Summers</li>
+                </ul>
+            <li>Grapes</li>
+        </ol>
+
+        <table>
+            <thead>
+            <caption>Student Data</caption>
+            <!-- <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Roll No
+                </th>
+            </tr> -->
+            <tr>
+                <!-- colspan uses the col space provided< -->
+                <th colspan="2">
+                    INFORMATION
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    Manav
+                </td>
+                <td>
+                    201
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Ram
+                </td>
+                <td>
+                    221
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Shyam
+                </td>
+                <td>
+                    254
+                </td>
+            </tr>
+        </tbody>
+        </table>
+        <br/><hr/>
+        
+        <h3>Registration Form</h3>
+        <hr/>
+
+        <form action="/action.php">
+            <input type="text" placeholder="Username">
+            <br/><br/>
+            <input type="password" placeholder="Password">
+            <br/><br/>
+
+            <!-- <input type="radio" value="class XI" name="class">Class XI
+            <input type="radio" value="class XII" name="class">Class XII -->
+
+            <h5>Select your class: </h5>
+            <!-- By using lable, if we click anywhere on text of radiobox, it gets selected -->
+            <label for="101">
+                <input type="radio" value="class XI" name="class" id="101">Class XI
+            </label>
+            <br/>
+            <label for="102">
+                <input type="radio" value="class XII" name="class" id="102">Class XII
+            </label>   
+            <br/><br/>
+
+            <h5>Select favourite subjects:</h5>
+            <!-- This is a checkbox -->
+            <label for="math">
+                <input type="checkbox" value="math" name="subject" id="math">Maths
+            </label>
+            <br/>
+            <label for="physics">
+                <input type="checkbox" value="physics" name="subject" id="physics">Physics
+            </label>
+            <br/>
+            <label for="english">
+                <input type="checkbox" value="english" name="subject" id="english">English
+            </label>
+            <br/>
+            <label for="cse">
+                <input type="checkbox" value="cse" name="subject" id="cse">Computer Science
+            </label>
+            <br/><br/>
+
+            <h5>Select your city:</h5>
+            <!-- Select Tag -->
+            <select name="city">
+                <option value="Delhi">Delhi</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+            </select>
+            <br/><br/>
+
+            <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+            <textarea name="feedback" id="101" placeholder="Please Give your feedback"></textarea>
+            <br/><br/>
+
+            <input type="submit" value="Submit">
+            <br/><br/>
+
+            <!-- This tag allows to put another site on ur site -->
+            <iframe width="560" height="315"src="https://www.wikipedia.org/"></iframe>
+
+            <!-- Video Tag -->
+            <!-- by using controls we can play pause mute video -->
+            <!-- by using loop, when video finishes again video is replayed -->
+            <!-- <video width="560" height="315" src="some video.mov" controls loop>my video</video> -->
+            
+
+
+            
+            
+        </form>
+
+    </main>
+
+    <footer></footer>
+    
+</body>
+</html>
