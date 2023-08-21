@@ -1,0 +1,304 @@
+.navbar{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  list-style: none;
+  background-color: black;
+}
+
+/* .navbar li{
+  display: inline-block;
+  position: relative;
+}
+
+.navbar li a{
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px;
+}
+
+.dropdown li{
+  display: block;
+}
+
+.dropdown{
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+} */
+
+
+
+
+
+
+
+.navLink {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  list-style: none;
+  height: 54px;
+  background-color: black; 
+  display: flex;
+  justify-content: right;
+}
+
+.navLink li {
+  margin: 15px;
+  margin-right: 45px;
+}
+
+.navLink a {
+  color: black;
+  text-decoration: none;
+}
+
+.navLink a:hover {
+  padding: 10px;
+  color: black;
+  background-color: white;
+  transition: 0.2s;
+}
+
+.cardView {
+  padding-top: 100px;
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  background-color: rgb(211, 210, 210);
+}
+
+.cardView p {
+  font-family: Cochin;
+  padding-left: 25px;
+  padding-right: 100px;
+}
+
+.cardView h1 {
+  padding-left: 25px;
+  font-family: sans-serif;
+}
+
+.cardView2 {
+  margin-top: 20px;
+  padding-top: 80px;
+  padding-left: 40px;
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  background-color: rgb(211, 210, 210);
+  padding-bottom: 100px;
+}
+
+.cardView2 p {
+  font-family: Cochin;
+  padding-left: 80px;
+  padding-right: 70px;
+}
+
+.cardView2 h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.imgView {
+  display: flex;
+}
+
+.btns {
+  padding-left: 65px;
+  padding-top: 40px;
+  display: flex;
+}
+
+.btns i {
+  padding: 15px;
+}
+
+.btns i:hover {
+  color: black !important;
+  /* background-color: black; */
+}
+
+.cardView3 {
+  margin-top: 20px;
+  padding-top: 80px;
+  padding-left: 40px;
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  background-color: rgb(211, 210, 210);
+  padding-bottom: 100px;
+}
+
+.cardView3 img {
+  padding-right: 30px;
+}
+
+.cardView3 p {
+  font-family: Cochin;
+  padding-right: 220px;
+}
+
+.cardView3 h1 {
+  font-family: sans-serif;
+}
+
+.cardView4 {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
+  background-color: rgb(211, 210, 210);
+  padding-bottom: 100px;
+}
+
+.cardView4 h1 {
+  font-family: sans-serif;
+}
+
+.cardView4 p {
+  font-family: Cochin;
+}
+
+.formView input {
+    background-color: rgb(211, 210, 210);
+  font-size: 19px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 50px;
+  font-family: Cochin;
+}
+
+.formView textarea {
+    background-color: rgb(211, 210, 210);
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: Cochin;
+}
+
+.sndBtn {
+  padding-left: 185px !important;
+  padding-right: 185px !important;
+  text-align: center !important;
+  color: white;
+  background-color: black !important;
+}
+
+
+
+
+.footerView {
+  font-family: sans-serif;
+  padding-top: 40px;
+  list-style: none;
+  background-color: #282d32;
+  padding-bottom: 20px;
+}
+
+.links ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.links a{
+  color: rgb(163, 162, 162);
+  text-decoration: none;
+}
+
+
+.links h3{
+  color: white;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+}
+
+.links div{
+  text-align: center;
+}
+
+.company{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.company h3{
+  text-align: center;
+  color: white;
+}
+
+.company p{
+  color: rgb(163, 162, 162);
+  text-align: center;
+}
+
+#endLine{
+  padding-top: 20px;
+  text-align: center;
+  color: grey;
+}
+
+.btnGrp {
+  justify-content: center;
+  padding-top: 20px;
+  display: flex;
+  color: white;
+}
+.list-item{
+  color: gray !important;
+}
+.btnGrp i {
+  padding: 12px;
+}
+
+.btnGrp i:hover {
+  color: rgb(71, 71, 71) !important;
+}
+
+#logoImg{
+  margin-top: 3px;
+  margin-right: 600px;
+}
+
+
+/* .dropdown {
+  
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown button {
+  background-color: transparent;
+  border: none;
+}
+
+.dropdown div {
+  display: none;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+}
+
+.dropdown:hover div {
+  display: block;
+}
+
+.dropdown div a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+} */
